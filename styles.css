@@ -1,0 +1,74 @@
+.one {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    margin-right: 300px;
+    
+}
+.sticker{
+   display: flex;
+   margin-left: 100px; 
+}
+.links > a {
+    color: aliceblue;
+    font-size: medium;
+}
+.forest{
+    display: flex;
+}
+.trees{
+    margin: 50px 200px;
+    
+}
+.para {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10%;
+}
+.up{
+    width: 100px;
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: aliceblue;
+    font-size: large;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.ran{
+    align-self: center;
+    font-size: 36px ;
+    font-weight: bolder;
+    color: #1f2937;
+   
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 231, 180);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
