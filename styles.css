@@ -3,27 +3,32 @@
     flex-direction: column;
     background-color: #1f2937;
     color: white;
+    flex: 1;
+   
 }
 .logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 5%;
-    font-size: 24px;
+    
 }
 .links{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     margin-right: 300px;
     
 }
 .sticker{
    display: flex;
-   margin-left: 100px; 
+   margin-left: 100px;
+   font-size: 24px;
+   color: #F9FAF8; 
 }
 .links > a {
-    color: aliceblue;
-    font-size: medium;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 .forest{
     display: flex;
@@ -36,6 +41,16 @@
    display: flex;
    flex-direction: column;
    margin-left: 10%;
+   flex: 1;
+}
+.para > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.para > p{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .up{
     width: 100px;
@@ -48,6 +63,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
+    flex: 1;
+    padding: 2%;
 }
 .ran{
     align-self: center;
@@ -65,10 +82,65 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(211, 231, 180);
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+    flex: 1;
+    padding: 5%;
+   
 }
 body{
     display: flex;
     flex-direction: column;
+    margin: 0%;
+}
+.four{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+   
+}
+footer{ 
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.down{
+    background-color: #3882f6;
+    color: aliceblue;
+    height: 30%;
+    width: 15%;
+    align-self: center;
+    border-color: whitesmoke;
+    border-radius: 10%;
+    border-style: solid;
+    font-size: larger;
+
+}
+.backg{
+    flex: 1;
+    background-color: #3882f6;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin: 0% 20% 0% 20%;
+    padding: 2% 2% ;
+}
+.mazi{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     
+}
+.mazi > p {
+    margin-top: auto;
+}
+.mazi > h4 {
+    margin-bottom: auto;
 }
